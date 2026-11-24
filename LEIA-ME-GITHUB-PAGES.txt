@@ -1,0 +1,22 @@
+P.I.P.O. — Pacote para GitHub Pages / iPhone
+
+PUBLICAÇÃO
+1. No repositório pipo-ios, envie o CONTEÚDO desta pasta (não a pasta externa): index.html, manifest.webmanifest, service-worker.js e as pastas icons/.
+2. Na tela de upload do GitHub, confirme o commit para a branch main.
+3. Abra Settings > Pages.
+4. Em Build and deployment, selecione Deploy from a branch.
+5. Em Branch, escolha main e / (root); clique Save.
+6. Aguarde o GitHub publicar e abra o endereço HTTPS mostrado em Settings > Pages.
+
+NO IPHONE
+1. Abra o endereço HTTPS no Safari.
+2. Toque em Compartilhar.
+3. Escolha Adicionar à Tela de Início.
+4. Confirme Adicionar.
+
+NOTAS
+- O pacote mantém a interface e o comportamento da v9; adiciona manifesto, ícones e cache offline.
+- O cache offline só é ativado depois da primeira visita bem-sucedida com internet.
+- O suporte de vibração no iOS/Safari é limitado e não é garantido.
+- Esta é uma aplicação web instalável (PWA), não um aplicativo nativo distribuído pela App Store.
+- O funcionamento visual final deve ser testado no iPhone real.

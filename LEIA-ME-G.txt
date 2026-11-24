@@ -1,0 +1,17 @@
+P.I.P.O. — Protótipo de Tela v9
+
+O que mudou em relação ao v8:
+- Área principal em horizontal usa padding simétrico, centralizando o conjunto título + balão + cabeça no centro da tela.
+- Cabeça/robot-wrap em horizontal ampliado para min(82vh, 50vw, 420px), aproximando a escala do layout vertical e respeitando uma largura máxima para não encostar nos controles.
+- Botões laterais e layout vertical preservados.
+
+
+Como testar:
+1. Extraia o ZIP.
+2. Abra index.html no navegador do Android (Chrome ou outro navegador local).
+3. Teste primeiro em modo vertical.
+4. Gire para horizontal e confira se a cabeça fica centrada e com tamanho proporcional.
+5. Toque na cabeça e na área vazia para conferir as reações.
+6. Volte à posição vertical e confirme que o layout aprovado não mudou.
+
+Nota: o HTML foi conferido e o JavaScript embutido foi submetido a verificação de sintaxe. A validação visual em navegador/aparelho real ainda depende do teste do usuário; o ambiente de execução não permitiu abrir o protótipo em navegador automatizado.
